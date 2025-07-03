@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,76 @@
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
     <div class="container">
-    <h1>Hello World</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perferendis dolor natus doloribus soluta ad fugiat facilis quaerat quod repellat, et quis, eveniet, ratione maxime! Perspiciatis natus unde minus maiores?</p>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button class="btn btn-outline-info btn-lg" >Info</button>
-    <button class="btn btn-secondary btn-sm" >Info</button>
-    
-</div>
+        <h1 class="display-1">Bootstrap playground</h1>
+        <button type="button" class="btn btn-primary">
+            Notifications <span class="badge text-bg-secondary">10</span>
+        </button>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perferendis dolor natus doloribus soluta ad
+            fugiat facilis quaerat quod repellat, et quis, eveniet, ratione maxime! Perspiciatis natus unde minus
+            maiores?</p>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button class="btn btn-outline-info btn-lg">Info</button>
+        <button class="btn btn-secondary btn-sm">Info</button>
+
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque mollitia debitis perspiciatis illum
+                aperiam laboriosam tenetur accusamus similique corporis, aliquid corrupti molestiae veniam. Culpa
+                architecto doloribus libero, quibusdam eum amet.</p>
+        </blockquote>
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+
+        <div class="container">
+<h2>Grid System</h2>
+        <p>Every row of bootstrap has 12 units of space to divide up</p>
+        <div class="row">
+            <div class="col-6 bg-success">I am 6 units</div>
+            <div class="col-6 bg-info">i am 6 units</div>
+        </div>
+        <div class="row">
+            <div class="col-2 bg-success">I am 2 units</div>
+            <div class="col-8 bg-info">i am 8 units</div>
+            <div class="col-2 bg-success">I am 2 units</div>
+        </div>
+        <div class="row">
+            <div class="col bg-success">I am auto units</div>
+            <div class="col bg-info">i am auto units</div>
+            <div class="col bg-success">I am auto units</div>
+        </div>
+        </div>
+        
+        <div class="container">
+            <h2>Responsive Practice</h2>
+            <div class="row">
+                <div class="col-md-6 bg-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, placeat! Incidunt, enim dolore eius natus expedita excepturi necessitatibus impedit nostrum dolorum aperiam eligendi, magni voluptatum repellat omnis veniam perferendis blanditiis?</div>
+                <div class="col-md-6 bg-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, placeat! Incidunt, enim dolore eius natus expedita excepturi necessitatibus impedit nostrum dolorum aperiam eligendi, magni voluptatum repellat omnis veniam perferendis blanditiis?</div>
+            </div>
+            
+        </div>
+<br>
+        <div class="row">
+            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae facere harum commodi ipsum pariatur rem atque et iste quibusdam minima vitae hic, debitis perferendis non ex repellendus soluta. Obcaecati!</div>
+            <div class="col-md-6 col-xl-3 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim facere perspiciatis error, iure optio earum quod quae voluptatem repellendus adipisci in, illum quibusdam esse dolore est, consectetur velit ab doloribus.</div>
+            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ipsam sint commodi, doloribus architecto dolore quam corrupti inventore esse ab ducimus blanditiis cumque voluptatem vel quia minima facilis ipsa. Fuga!</div>
+            <div class="col-md-6 col-xl-3 bg-success ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto in nihil harum iure nobis magni sunt tempora doloremque sapiente autem obcaecati quaerat, repudiandae iusto quae provident reiciendis totam. Delectus, animi.</div>
+        </div>
+<br>
+
+    </div>
 
 
 
@@ -26,7 +88,31 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+    <script>const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+        const appendAlert = (message, type) => {
+            const wrapper = document.createElement('div')
+            wrapper.innerHTML = [
+                `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                `   <div>${message}</div>`,
+                '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                '</div>'
+            ].join('')
+
+            alertPlaceholder.append(wrapper)
+        }
+
+        const alertTrigger = document.getElementById('liveAlertBtn')
+        if (alertTrigger) {
+            alertTrigger.addEventListener('click', () => {
+                appendAlert('Nice, you triggered this alert message!', 'success')
+            })
+        }</script>
 </body>
+
 </html>
