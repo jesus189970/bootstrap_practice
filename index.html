@@ -12,6 +12,32 @@
 </head>
 
 <body>
+    
+
+
+    <nav class="navbar bg-body-tertiary navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#expandme" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+            <div class="collapse navbar-collapse" id="expandme">
+                <div class="navbar-nav">
+                    <a href="Home" class="nav-item nav-link">Home</a>
+                    <a href="" class="nav-item nav-link">About</a>
+                    <a href="" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+        </div>
+    </nav>
+
+
     <div class="container">
         <h1 class="display-1">Bootstrap playground</h1>
         <button type="button" class="btn btn-primary">
@@ -44,44 +70,143 @@
 
 
         <div class="container">
-<h2>Grid System</h2>
-        <p>Every row of bootstrap has 12 units of space to divide up</p>
-        <div class="row">
-            <div class="col-6 bg-success">I am 6 units</div>
-            <div class="col-6 bg-info">i am 6 units</div>
+            <h2>Grid System</h2>
+            <p>Every row of bootstrap has 12 units of space to divide up</p>
+            <div class="row">
+                <div class="col-6 bg-success">I am 6 units</div>
+                <div class="col-6 bg-info">i am 6 units</div>
+            </div>
+            <div class="row">
+                <div class="col-2 bg-success">I am 2 units</div>
+                <div class="col-8 bg-info">i am 8 units</div>
+                <div class="col-2 bg-success">I am 2 units</div>
+            </div>
+            <div class="row">
+                <div class="col bg-success">I am auto units</div>
+                <div class="col bg-info">i am auto units</div>
+                <div class="col bg-success">I am auto units</div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-2 bg-success">I am 2 units</div>
-            <div class="col-8 bg-info">i am 8 units</div>
-            <div class="col-2 bg-success">I am 2 units</div>
-        </div>
-        <div class="row">
-            <div class="col bg-success">I am auto units</div>
-            <div class="col bg-info">i am auto units</div>
-            <div class="col bg-success">I am auto units</div>
-        </div>
-        </div>
-        
+
         <div class="container">
             <h2>Responsive Practice</h2>
             <div class="row">
-                <div class="col-md-6 bg-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, placeat! Incidunt, enim dolore eius natus expedita excepturi necessitatibus impedit nostrum dolorum aperiam eligendi, magni voluptatum repellat omnis veniam perferendis blanditiis?</div>
-                <div class="col-md-6 bg-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, placeat! Incidunt, enim dolore eius natus expedita excepturi necessitatibus impedit nostrum dolorum aperiam eligendi, magni voluptatum repellat omnis veniam perferendis blanditiis?</div>
+                <div class="col-md-6 bg-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, placeat!
+                    Incidunt, enim dolore eius natus expedita excepturi necessitatibus impedit nostrum dolorum aperiam
+                    eligendi, magni voluptatum repellat omnis veniam perferendis blanditiis?</div>
+                <div class="col-md-6 bg-success">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+                    placeat! Incidunt, enim dolore eius natus expedita excepturi necessitatibus impedit nostrum dolorum
+                    aperiam eligendi, magni voluptatum repellat omnis veniam perferendis blanditiis?</div>
             </div>
-            
+
         </div>
-<br>
+        <br>
         <div class="row">
-            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repudiandae facere harum commodi ipsum pariatur rem atque et iste quibusdam minima vitae hic, debitis perferendis non ex repellendus soluta. Obcaecati!</div>
-            <div class="col-md-6 col-xl-3 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim facere perspiciatis error, iure optio earum quod quae voluptatem repellendus adipisci in, illum quibusdam esse dolore est, consectetur velit ab doloribus.</div>
-            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ipsam sint commodi, doloribus architecto dolore quam corrupti inventore esse ab ducimus blanditiis cumque voluptatem vel quia minima facilis ipsa. Fuga!</div>
-            <div class="col-md-6 col-xl-3 bg-success ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto in nihil harum iure nobis magni sunt tempora doloremque sapiente autem obcaecati quaerat, repudiandae iusto quae provident reiciendis totam. Delectus, animi.</div>
+            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                repudiandae facere harum commodi ipsum pariatur rem atque et iste quibusdam minima vitae hic, debitis
+                perferendis non ex repellendus soluta. Obcaecati!</div>
+            <div class="col-md-6 col-xl-3 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                facere perspiciatis error, iure optio earum quod quae voluptatem repellendus adipisci in, illum
+                quibusdam esse dolore est, consectetur velit ab doloribus.</div>
+            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex ipsam
+                sint commodi, doloribus architecto dolore quam corrupti inventore esse ab ducimus blanditiis cumque
+                voluptatem vel quia minima facilis ipsa. Fuga!</div>
+            <div class="col-md-6 col-xl-3 bg-success ">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto in nihil harum iure nobis magni sunt tempora doloremque sapiente autem obcaecati quaerat,
+                repudiandae iusto quae provident reiciendis totam. Delectus, animi.</div>
         </div>
-<br>
+        <br>
 
+        <!-- Aligning items practice-->
+
+        <div class="row align-items-center">
+            <div class="col bg-danger">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto cumque,
+                fugit sint asperiores iure perspiciatis repellendus libero quidem neque, quo voluptatibus sequi, atque
+                error. Iure maiores expedita nemo? Ea, omnis!</div>
+            <div class="col bg-warning">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                inventore, vero reiciendis recusandae, earum iure quaerat eius eum rerum alias laudantium doloribus
+                adipisci omnis, nihil harum. Nostrum corporis repellendus autem? Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Illo quod sapiente inventore fugit minima a nihil esse sequi reiciendis, explicabo
+                repellendus culpa pariatur? Id voluptatem asperiores voluptatum possimus ad quam.
+                Voluptatibus harum placeat voluptates cupiditate totam nesciunt vel quibusdam fugit illum facilis!
+                Architecto accusamus aut debitis necessitatibus laboriosam facere ipsum nisi nesciunt iste, temporibus
+                nulla, voluptate, voluptatibus quia eum? Sit.</div>
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. In rerum incidunt rem
+                ipsum non? Repellat dicta, soluta obcaecati mollitia omnis earum maxime fugiat sed ad natus. Dicta
+                laborum consequuntur accusamus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+                quod quas beatae, doloremque rem incidunt quaerat ea temporibus inventore culpa perferendis consequuntur
+                animi, iusto eum et asperiores possimus molestias impedit.</div>
+            <div class="col bg-warning align-self-end">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
+                voluptate minima doloremque dolorem dolor aspernatur maiores reiciendis ipsa rem aliquid. Blanditiis
+                iusto et laboriosam iure harum suscipit veniam est amet.</div>
+        </div>
+        <!--alighning items practice-->
+        <h3>Justify Content</h3>
+        <div class="row border justify-content-center justify-content-md-start">
+            <div class="col-md-4 bg-primary">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam necessitatibus earum quaerat veritatis
+                aspernatur? Eaque iste sint rem, animi odio reiciendis assumenda quasi dicta praesentium architecto
+                consectetur voluptatibus! Veniam, ex?
+            </div>
+            <div class="col-md-4 bg-info ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam nobis explicabo reiciendis
+                commodi,
+                mollitia iure pariatur, nesciunt recusandae culpa, ducimus delectus ut exercitationem soluta corrupti.
+                Sed
+                iste libero optio.
+            </div>
+
+
+        </div>
+
+        <h3>Forms Practice</h3>
+        <form action="#nowhere">
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email" email>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">password</label>
+                    <input type="password" class="form-control" id="password" placeholder="password" password>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <select class="form-control" name="state" id="state">
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                </select>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="tos">
+                <label class="form-check-label" for="tos">
+                    Sign Me Up
+                </label>
+            </div>
+
+
+            <button type="" submit class="btn btn-success">Submit</button>
+
+        </form>
+
+
+
+
+        <div class="container">
+            <h1 class="display-1">
+                <button class="btn btn-danger btn-lg">Delete </button>
+            </h1>
+        </div>
     </div>
+    <br>
 
 
+
+
+    <br>
+    <br>
 
 
 
@@ -113,6 +238,10 @@
                 appendAlert('Nice, you triggered this alert message!', 'success')
             })
         }</script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
